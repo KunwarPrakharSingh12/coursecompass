@@ -1,0 +1,19 @@
+project_id = "ucpzdxjdgfzbgxyozmdl"
+
+[functions.send-alert-email]
+verify_jwt = true
+
+[functions.optimize-schedule]
+verify_jwt = false
+
+[functions.send-weekly-report]
+verify_jwt = false
+
+[functions.sync-github-activity]
+verify_jwt = false
+
+[functions.sync-leetcode-activity]
+verify_jwt = false
+
+[functions.extract-syllabus]
+verify_jwt = false
